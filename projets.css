@@ -1,0 +1,172 @@
+/* projets.css — page Projets, thème bordeaux */
+
+.projets-header {
+  padding: 120px 80px 40px;
+  text-align: center;
+}
+
+.projets-header h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  color: var(--blanc);
+  border: none;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.projets-header p {
+  color: var(--texte-gris);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.projet-section { padding: 60px 80px; }
+
+.projet-page-contenu {
+  display: flex;
+  gap: 52px;
+  align-items: flex-start;
+}
+
+.projet-page-gauche {
+  flex: 1;
+  max-width: 400px;
+}
+
+.projet-page-titre {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--blanc);
+  border: none;
+  padding: 0;
+  margin-bottom: 14px;
+}
+
+.projet-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.projet-tags img {
+  width: 42px;
+  height: 42px;
+  padding: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  object-fit: contain;
+  display: block;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;  
+}
+.projet-tags img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 12px rgba(168, 40, 64, 0.45);
+}
+
+.projet-tags span {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+   padding: 3px 8px; 
+  border-radius: 6px;
+  font-size: 0.78rem;
+  color: var(--texte-gris);
+  letter-spacing: 0.3px;
+  width: fit-content;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;  
+  
+}
+
+.projet-tags span:hover {
+  transform: scale(1.05);
+  background: rgba(168, 40, 64, 0.25);
+  box-shadow: 0 0 10px rgba(168, 40, 64, 0.35);
+}
+
+
+.tag {
+  background: rgba(139, 26, 46, 0.25);
+  border: 1px solid rgba(168, 40, 64, 0.4);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: var(--blanc);
+  letter-spacing: 0.5px;
+}
+
+.projet-page-desc {
+  font-size: 0.9rem;
+  line-height: 1.85;
+  color: var(--texte-gris);
+}
+
+.projet-page-droite { flex: 1.4; }
+
+.projet-grande-image {
+  width: 100%;
+  height: 280px;
+  background: linear-gradient(135deg, #1F0D12, #3D1020);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  border: 1px solid rgba(139, 26, 46, 0.3);
+}
+
+.projet-grande-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.separateur {
+  height: 1px;
+  background: rgba(139, 26, 46, 0.2);
+  margin: 0 80px;
+}
+
+.tbc-section {
+  padding: 60px 80px 80px;
+  text-align: center;
+}
+
+.tbc-titre {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 900;
+  font-size: 2.2rem;
+  color: var(--blanc);
+  border: none;
+  padding: 0;
+  margin-bottom: 28px;
+  font-style: italic;
+}
+
+.tbc-carte {
+  background: var(--bordeaux-pale);
+  border-radius: 18px;
+  padding: 32px 48px;
+  max-width: 680px;
+  margin: 0 auto;
+  border: 1px solid rgba(139, 26, 46, 0.3);
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: var(--texte-gris);
+}
+
+@media (max-width: 768px) {
+  .projets-header { padding: 100px 24px 32px; }
+  .projet-section { padding: 40px 24px; }
+  .projet-page-contenu { flex-direction: column; gap: 24px; }
+  .projet-page-gauche { max-width: 100%; }
+  .projet-grande-image { height: 200px; }
+  .separateur { margin: 0 24px; }
+  .tbc-section { padding: 40px 24px 60px; }
+  .tbc-carte { padding: 24px 20px; }
+}

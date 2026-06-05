@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aïda — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;900&family=DM+Sans:wght@300;400;500&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <span class="nav-nom">Aïda</span>
+    <a href="#accueil" data-fr="Accueil" data-en="Home">Accueil</a>
+    <a href="#apropos" data-fr="À Propos" data-en="About">À Propos</a>
+    <a href="#Formations" data-fr="Formations" data-en="Education">Formations</a>
+    <a href="#competences" data-fr="Compétences" data-en="Skills">Compétences</a>
+    <a href="#projets" data-fr="Projets" data-en="Projects">Projets</a>
+    <a href="#contact" class="btn-contact" data-fr="Contact" data-en="Contact">Contact</a>
+    <a href="CV – Aida Gabe.pdf" class="btn-cv" target="_blank">CV</a>
+    <button class="btn-lang" onclick="toggleLang()">EN</button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="accueil">
+   
+    <div class="hero-cercle">
+      <img src="photo aida.jpeg" alt="Photo d'Aïda" class="photo-placeholder">
+    </div>
+
+    <h1>AÏDA GABE</h1>
+    <p class="hero-sous-titre" data-fr="JE SUIS ÉTUDIANTE EN 1ÈRE ANNÉE DE BUT INFORMATIQUE"
+      data-en="I AM A 1ST YEAR BUT COMPUTER SCIENCE STUDENT">
+      JE SUIS ÉTUDIANTE EN 1ÈRE ANNÉE DE BUT INFORMATIQUE
+    </p>
+
+    <div class="hero-liens">
+      <a href="https://www.linkedin.com/in/aïda-gabe-3540943b4" target="_blank">
+        <img src="icons8-linkedin-50.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/aidaag" target="_blank">
+        <img src="icons8-github-50.png" alt="GitHub">
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ===== A PROPOS ===== -->
+  <section id="apropos">
+    <h2 data-fr="À Propos" data-en="About Me">À Propos</h2>
+     <div class="carte">
+    <p data-fr="Je m'appelle Aida et je suis étudiante en première année de BUT Informatique à l'IUT2 de Grenoble."
+       data-en="My name is Aida, and I am a first-year Computer Science student at IUT2 Grenoble.">
+      Je m'appelle Aida et je suis étudiante en première année de BUT Informatique à l'IUT2 de Grenoble.
+    </p>
+   <p data-fr="J'aime apprendre, comprendre et progresser, que ce soit à travers mes projets ou les nouveaux domaines que je découvre au fil de ma formation. Je suis quelqu'un de persévérante, curieuse et investie dans ce que j'entreprends."
+      data-en="I enjoy learning, exploring new concepts, and improving my skills through the projects I work on. I'm a curious and dedicated person, and I like investing myself fully in what I do.">
+      J'aime apprendre, comprendre et progresser, que ce soit à travers mes projets ou les nouveaux domaines que je découvre au fil de ma formation. Je suis quelqu'un de persévérante, curieuse et investie dans ce que j'entreprends.
+    </p>
+   <p data-fr="En dehors de l'IUT, j'aime écouter de la musique, regarder des films et surtout des reportages. J'adore voyager, découvrir de nouvelles cultures et comprendre différentes façons de voir le monde."
+      data-en="Outside of my studies, I enjoy listening to music, watching movies and especially documentaries. I love traveling and discovering new cultures, as it helps me broaden my perspective.">
+      En dehors de l'IUT, j'aime écouter de la musique, regarder des films et surtout des reportages. J'adore voyager, découvrir de nouvelles cultures et comprendre différentes façons de voir le monde.
+    </p>
+    <p data-fr="Ce portfolio reflète mon parcours, mon évolution et les compétences que je développe au fur et à mesure de mes projets. 🌸"
+      data-en="This portfolio showcases my journey, my progress, and the skills I continue to develop throughout my studies. 🌸">
+      Ce portfolio reflète mon parcours, mon évolution et les compétences que je développe au fur et à mesure de mes projets. 🌸
+    </p>
+  </div>
+    <a href="#contact" class="btn-rose" data-fr="Contactez-moi" data-en="Contact me">Contactez-moi</a>
+    <div style="clear:both"></div>
+  </section>
+
+  
+
+  <!-- ===== COMPETENCES ===== -->
+<section id="competences">
+  <h2 class="titre-competences"
+      data-fr="MES COMPÉTENCES"
+      data-en="MY SKILLS">
+    MES<br>COMPÉTENCES
+  </h2>
+
+  <div class="skills-layout">
+
+    <!-- HARD SKILLS -->
+    <div class="skills-column">
+      <h3 class="skills-subtitle">Hard Skills</h3>
+
+      <div class="competences-grille">
+        <div class="badge">
+          <div class="badge-icone"><img src="icons8-html-50.png" alt="HTML"></div>
+          <span>HTML5</span>
+        </div>
+        <div class="badge">
+          <div class="badge-icone"><img src="icons8-css-logo-30.png" alt="CSS"></div>
+          <span>CSS3</span>
+        </div>
+        <div class="badge">
+          <div class="badge-icone"><img src="icons8-sql-48.png" alt="SQL"></div>
+          <span>PostgreSQL</span>
+        </div>
+        <div class="badge">
+          <div class="badge-icone"><img src="icons8-java-50.png" alt="Java"></div>
+          <span>Java</span>
+        </div>
+        <div class="badge">
+          <div class="badge-icone badge-icone-r"><img src="icons8-r-project-50.png" alt="R"></div>
+          <span>R</span>
+        </div>
+        <div class="badge">
+          <div class="badge-icone badge-icone-r"><img src="icons8-visual-studio-50.png" alt="VSCode"></div>
+          <span>VSCode</span>
+        </div>
+        <div class="badge">
+          <div class="badge-icone badge-icone-r"><img src="icons8-github-logo-30.png" alt="GitHub"></div>
+          <span>GitHub</span>
+        </div>
+        <div class="badge">
+          <div class="badge-icone badge-icone-r"><img src="icons8-gitlab-50.png" alt="GitLab"></div>
+          <span>GitLab</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SOFT SKILLS + LANGUES -->
+    <div class="skills-column">
+      <h3 class="skills-subtitle">Soft Skills & Langues</h3>
+      <div class="softskills-list">
+        <span class="tech-tag" data-fr="Organisée" data-en="Organized">Organisée</span>
+        <span class="tech-tag" data-fr="Persévérante" data-en="Persistent">Persévérante</span>
+        <span class="tech-tag" data-fr="Créative" data-en="Creative">Créative</span>
+        <span class="tech-tag" data-fr="Autonome" data-en="Autonomous">Autonome</span>
+        <span class="tech-tag" data-fr="Curieuse" data-en="Curious">Curieuse</span>
+        <span class="tech-tag" data-fr="Adaptable" data-en="Adaptable">Adaptable</span>
+        <span class="tech-tag" data-fr="Esprit d'equipe" data-en="Teamwork">Esprit d'equipe</span>
+
+      </div>
+
+
+      <div class="langues-container">
+
+  <div class="langue-ligne">
+    <div class="langue-header">
+      <div class="langue-info">
+        <span class="langue-nom" data-fr="Italien" data-en="Italian">Italien</span>
+      </div>
+      <span class="langue-niveau" data-fr="Natif" data-en="Native">Natif</span>
+    </div>
+    <div class="langue-barre-fond">
+      <div class="langue-barre-remplissage" style="width: 100%"></div>
+    </div>
+  </div>
+
+  <div class="langue-ligne">
+    <div class="langue-header">
+      <div class="langue-info">
+        <span class="langue-nom" data-fr="Français" data-en="French">Français</span>
+      </div>
+      <span class="langue-niveau" data-fr="Bilingue" data-en="Bilingual">Bilingue</span>
+    </div>
+    <div class="langue-barre-fond">
+      <div class="langue-barre-remplissage" style="width: 100%"></div>
+    </div>
+  </div>
+
+  <div class="langue-ligne">
+    <div class="langue-header">
+      <div class="langue-info">
+        <span class="langue-nom" data-fr="Anglais" data-en="English">Anglais</span>
+      </div>
+      <span class="langue-niveau" data-fr="C2" data-en="C2">C2</span>
+    </div>
+    <div class="langue-barre-fond">
+      <div class="langue-barre-remplissage" style="width: 55%"></div>
+    </div>
+  </div>
+
+  <div class="langue-ligne">
+    <div class="langue-header">
+      <div class="langue-info">
+        <span class="langue-nom" data-fr="Chinois" data-en="Chinese">Chinois</span>
+      </div>
+      <span class="langue-niveau" data-fr="A1" data-en="A1">A1</span>
+      </div>
+      <div class="langue-barre-fond">
+        <div class="langue-barre-remplissage" style="width: 15%"></div>
+      </div>
+    </div>
+
+  </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ===== PROJETS ===== -->
+  <section id="projets">
+    <h2 class="titre-projets" data-fr="Mes Projets" data-en="My Projects">Mes Projets</h2>
+    <div class="projets-grille">
+
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="image_portfoliopng.png" >
+        </div>
+        <div class="projet-info">
+          <span class="badge-statut badge-termine" data-fr="TERMINÉ" data-en="COMPLETED">TERMINÉ</span>
+          <p class="projet-nom" data-fr="Portfolio Personnel" data-en="Personal Portfolio">Portfolio Personnel</p>
+          <p class="projet-lien"><a href="Projets.html#portfolio" data-fr="Voir le projet →" data-en="See project →">Voir le projet →</a></p>
+          <div class="projet-tech">
+            <img src="icons8-html-50.png" alt="HTML">
+            <img src="icons8-css-logo-30.png" alt="CSS">
+            <span class="tech-tag" data-fr="Anglais" data-en="English">Anglais</span>
+            <span class="tech-tag" data-fr="Maquettage" data-en="Mockup design">Maquettage</span>
+            <span class="tech-tag" data-fr="Communication client" data-en="Client communication">Communication client</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="hardis.png.webp" alt="portfolio">
+        </div>
+        <div class="projet-info">
+          <span class="badge-statut badge-termine" data-fr="TERMINÉ" data-en="COMPLETED">TERMINÉ</span>
+          <p class="projet-nom" data-fr="Site Hardis — Création de site web" data-en="Hardis Website">Site Hardis — Création de site web</p>
+          <p class="projet-lien"><a href="Projets.html#hardis" data-fr="Voir le projet →" data-en="See project →">Voir le projet →</a></p>
+        <div class="projet-tech">
+            <img src="icons8-html-50.png" alt="HTML">
+            <img src="icons8-css-logo-30.png" alt="CSS">
+            <img src="icons8-github-logo-30.png" alt="GitHub">
+            <span class="tech-tag" data-fr="Maquettage" data-en="Mockup design">Maquettage</span>
+            <span class="tech-tag" data-fr="Communication client" data-en="Client communication">Communication client</span> 
+          </div>
+        </div>
+      </div>
+
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="military.png" >
+        </div>
+        <div class="projet-info">
+          <span class="badge-statut badge-termine" data-fr="TERMINÉ" data-en="COMPLETED">TERMINÉ</span>
+          <p class="projet-nom" data-fr="Site Militaire — Création de site web" data-en="Military Website">Site Militaire — Création de site web</p>
+          <p class="projet-lien"><a href="Projets.html#militaire" data-fr="Voir le projet →" data-en="See project →">Voir le projet →</a></p>
+          <div class="projet-tech">
+            <img src="icons8-html-50.png" alt="HTML">
+            <img src="icons8-css-logo-30.png" alt="CSS">
+            <img src="icons8-github-logo-30.png" alt="GitHub">
+             <span class="tech-tag" data-fr="Anglais" data-en="English">Anglais</span>
+              <span class="tech-tag" data-fr="Maquettage" data-en="Mockup design">Maquettage</span>
+              <span class="tech-tag" data-fr="Communication client" data-en="Client communication">Communication client</span>
+
+          </div>
+      
+        </div>
+      </div>
+
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="s1.04.png" >
+        </div>
+        <div class="projet-info">
+          <span class="badge-statut badge-termine" data-fr="TERMINÉ" data-en="COMPLETED">TERMINÉ</span>
+          <p class="projet-nom" data-fr= Tourmentin  — Base de données" data-en="Tourmentin — Database"> Tourmentin</p> — Base de données</p>
+          <p class="projet-lien"><a href="Projets.html#bdd" data-fr="Voir le projet →" data-en="See project →">Voir le projet →</a></p>
+          <div class="projet-tech">
+            <img src="icons8-sql-48.png" alt="SQL">
+            <span class="tech-tag" data-fr="Modélisation" data-en="Modeling">Modélisation</span>
+            <span class="tech-tag" data-fr="MCD / MLD" data-en="Conceptual & Logical models">MCD / MLD</span>
+            <span class="tech-tag" data-fr="Requêtes SQL" data-en="SQL queries">Requêtes SQL</span>
+            <span class="tech-tag" data-fr="Analyse" data-en="Analysis">Analyse</span>
+           </div>
+        </div>
+      </div>
+
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="graphique sucres.png" >
+        </div>
+        <div class="projet-info">
+          <span class="badge-statut badge-termine" data-fr="TERMINÉ" data-en="COMPLETED">TERMINÉ</span>
+          <p class="projet-nom" data-fr="Nutriscore — Analyse de données" data-en="Nutriscore — Data Analysis">Nutriscore — Analyse de données</p>
+          <p class="projet-lien"><a href="Projets.html#nutriscore" data-fr="Voir le projet →" data-en="See project →">Voir le projet →</a></p>
+          <div class="projet-tech">
+            <img src="icons8-sql-48.png" alt="SQL">
+            <img src="icons8-r-project-50.png" alt="R">
+            <span class="tech-tag" data-fr="Statistiques" data-en="Statistics">Statistiques</span>
+            <span class="tech-tag" data-fr="Nettoyage de données" data-en="Data cleaning">Nettoyage de données</span>
+            <span class="tech-tag" data-fr="Graphiques" data-en="Charts">Graphiques</span>
+            <span class="tech-tag" data-fr="Analyse" data-en="Analysis">Analyse</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="projet-carte">
+        <div class="projet-image">
+          <img src="chatbot_img.png" >
+        </div>
+        <div class="projet-info">
+          <span class="badge-statut badge-termine" data-fr="TERMINÉ" data-en="COMPLETED">TERMINÉ</span>
+          <p class="projet-nom" data-fr="Chatbot — Java" data-en="Chatbot — Java">Chatbot — Java</p>
+          <p class="projet-lien"><a href="Projets.html#chatbot" data-fr="Voir le projet →" data-en="See project →">Voir le projet →</a></p>
+          <div class="projet-tech">
+            <img src="icons8-java-50.png" alt="Java">
+            <span class="tech-tag" data-fr="POO" data-en="OOP">POO</span>
+            <span class="tech-tag" data-fr="Analyse syntaxique" data-en="Syntax analysis">Analyse syntaxique</span>
+            <span class="tech-tag" data-fr="Algorithmes" data-en="Algorithms">Algorithmes</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="projet-carte" style="opacity:0.45">
+        <div class="projet-image"></div>
+        <div class="projet-info">
+          <span class="badge-statut badge-en-cours" data-fr="EN COURS" data-en="ONGOING">EN COURS</span>
+          <p class="projet-nom" data-fr="Projet Évènementiel — à venir" data-en="Events Project — soon">Projet Évènementiel — à venir</p>
+          <p class="projet-lien"><strong data-fr="Bientôt disponible" data-en="Coming soon">Bientôt disponible</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ===== PARCOURS ===== -->
+  <section id="parcours">
+    <h2 data-fr="Formations" data-en="Education">Formations</h2>
+    <div class="timeline">
+
+      <div class="timeline-item droite">
+        <div class="carte-timeline">
+          <p class="annee">2025 – 2026</p>
+          <p data-fr="BUT Info S1/S2 — IUT2 Grenoble. Java, bases de données, algo, web."
+             data-en="BUT CS S1/S2 — IUT2 Grenoble. Java, databases, algorithms, web.">
+            BUT Info S1/S2 — IUT2 Grenoble. 
+        </div>
+      </div>
+
+      <div class="timeline-item gauche">
+        <div class="carte-timeline">
+          <p class="annee">2025-2022</p>
+          <p data-fr="Baccalauréat général — Maths & Physique-chimie. Mention Bien."
+             data-en="General Baccalaureate — Maths & Physics-Chemistry. Merit grade.">
+            Baccalauréat général — Maths & Physique-chimie. Mention Bien.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <p class="tbc">To be continued...</p>
+  </section>
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2 class="titre-contact" data-fr="Me Contacter" data-en="Contact Me">Me Contacter</h2>
+    <form class="formulaire" action="https://formspree.io/f/xzdqblly" method="POST">
+      <input type="text" name="nom" placeholder="Votre nom"
+         data-placeholder-fr="Votre nom"
+         data-placeholder-en="Your name">
+      <input type="email" name="email" placeholder="Votre email"
+         data-placeholder-fr="Votre email"
+         data-placeholder-en="Your email">
+      <textarea name="message" placeholder="Votre message"
+            data-placeholder-fr="Votre message"
+            data-placeholder-en="Your message"></textarea>
+      <button type="submit" data-fr="Envoyer" data-en="Send">Envoyer</button>
+
+      <div class="contact-social">
+        <a href="www.linkedin.com/in/aïda-gabe-3540943b4" 
+          target="_blank" class="contact-social-btn">
+          <img src="icons8-linkedin-50.png" alt="LinkedIn">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/aidaag" 
+          target="_blank" class="contact-social-btn">
+          <img src="icons8-github-50.png" alt="GitHub">
+          <span>GitHub</span>
+         </a>
+      </div>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    Développé par <span>Aïda</span> — HTML, CSS, JavaScript — 2026
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="lang.js"></script>
+
+</body>
+</html>
